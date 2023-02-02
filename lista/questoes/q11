@@ -1,0 +1,28 @@
+#11. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina
+#ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à
+#tabela abaixo:
+#Média de Aproveitamento Conceito
+#Entre 9.0 e 10.0 A
+#Entre 7.5 e 9.0 B
+#Entre 6.0 e 7.5 C
+#Entre 4.0 e 6.0 D
+#Entre 4.0 e zero E
+
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+notafinal = (nota1+nota2)/2
+
+if notafinal >= 9:
+  print (f'Primeira nota: {nota1}, Segunda nota: {nota2}, Média: {notafinal}, A, Aprovado!')
+
+elif notafinal >= 7.5 < 9:
+  print (f'Primeira nota: {nota1}, Segunda nota: {nota2}, Média: {notafinal}, B, Aprovado!')
+
+elif notafinal >= 6 < 7.5:
+  print (f'Primeira nota: {nota1}, Segunda nota: {nota2}, Média: {notafinal}, C, Aprovado!')
+
+elif notafinal >= 4 < 6:
+  print (f'Primeira nota: {nota1}, Segunda nota: {nota2}, Média: {notafinal}, D, Reprovado')
+
+else:
+  print (f'Primeira nota: {nota1}, Segunda nota: {nota2}, Média: {notafinal}, E, Reprovado')

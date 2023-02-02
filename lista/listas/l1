@@ -1,0 +1,10 @@
+#Lista 1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os
+
+lista = []
+n = int(input('Digite a quantidade de numeros na lista'))
+
+for i in range (0, n):
+  print('insira um numero: ')
+  a = int(input())
+  lista.append(a)
+print(lista)

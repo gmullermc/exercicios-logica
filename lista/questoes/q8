@@ -1,0 +1,15 @@
+#8. A série de Fibonacci é formada pela sequência 1,1,2,3,5,8,13,21,34,55,... Faça um
+#programa capaz de gerar a série até o n−ésimo termo.
+
+
+termosderepeticao = int(input("Digite o numero de repetições: "))
+n1 = 0
+n2 = 1
+contagem = 0
+
+while contagem < termosderepeticao:
+  print(n1)
+  n3 = n1+n2
+  n1 = n2
+  n2 = n3
+  contagem += 1

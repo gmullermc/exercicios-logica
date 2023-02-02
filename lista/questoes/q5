@@ -1,0 +1,15 @@
+#5. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+x = input('Digite uma letra: ')
+if x == 'a':
+  print('Vogal')
+elif x == 'e':
+  print('Vogal')
+elif x == 'i':
+  print('Vogal')
+elif x == 'o':
+  print('Vogal')
+elif x == 'u':
+  print('Vogal')
+else:
+  print('Consoante')

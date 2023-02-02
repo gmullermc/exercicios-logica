@@ -1,0 +1,5 @@
+#3. Faça um Programa que converta metros para centímetros.
+
+num1 = int(input("Insira um valor em metros: "))
+resultado = num1*100
+print(f"{num1} metros em centímetros é igual a {resultado} centímetros.")

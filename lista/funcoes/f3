@@ -1,0 +1,5 @@
+#Função 3. Faça uma função que informe a quantidade de dígitos de um determinado número inteiro
+#informado.
+
+a = (input('Digite um numero: '))
+print(len(a))

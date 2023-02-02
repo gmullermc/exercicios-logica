@@ -1,0 +1,7 @@
+#6. Faça um programa que receba dois números inteiros e gere os números inteiros que
+#estão no intervalo compreendido por eles.
+
+numeroinicio = int(input('Digite um numero: '))
+numerofim = int(input('Digite um segundo numero: '))
+for x in range(numeroinicio, (numerofim+1)):
+  print (x)

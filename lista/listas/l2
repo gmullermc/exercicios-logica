@@ -1,0 +1,15 @@
+#Lista 2. Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+
+notas=[]
+n = 4
+soma = 0
+
+for i in range(0, n):
+  print('Insira uma nota: ')
+  a = int(input())
+  notas.append(a)
+for x in range(0, len(notas)):
+  soma = soma+notas[x]
+final = soma/4
+
+print(final)
